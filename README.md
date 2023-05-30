@@ -62,7 +62,7 @@ Creating UI tests: Cucumber docs
 5.Create page classes under pages folder and define the page objects (elements)
 6.Implement the step definitions based on the scenario behaviours
 
-Creating API tests:
+
 
 ##Running the UI tests
 
@@ -75,7 +75,7 @@ Creating API tests:
 ```bash
 clean test -Dcucumber.filter.tags="@smoketest"
 ```
-
+Creating API tests:
 Creating API tests: [RestAssured Docs](https://rest-assured.io/)
 
 1.Create a class in api_tests folder under src/test/java folder
